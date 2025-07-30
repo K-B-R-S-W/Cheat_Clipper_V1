@@ -1,6 +1,6 @@
 # ✂️ Cheat_Clipper
 
-**Cheat_Clipper** is a lightweight Python utility that enhances your clipboard workflow by integrating with OpenAI's Gpt-3.5-turbo model. It monitors clipboard activity, processes the content via GPT, and allows quick response retrieval with custom hotkeys. Ideal for research, note-taking, and fast knowledge lookup.
+**Cheat_Clipper** is a lightweight Python utility that enhances your clipboard workflow by integrating with OpenAI's GPT-3.5-turbo model. It monitors clipboard activity, processes the content via GPT, and allows quick response retrieval with custom hotkeys. Ideal for research, note-taking, and fast knowledge lookup.
 
 > 😉 **Educational Tool Disclaimer**: While this Cheat tool can assist with learning and research, please use it responsibly and in accordance with your institution's academic integrity policies!
 
@@ -9,7 +9,7 @@
 ## 🔧 Features
 
 - Monitors clipboard content in real-time
-- Sends copied text to OpenAI's GPT-4o-mini for processing
+- Sends copied text to OpenAI's GPT-3.5-turbo for processing
 - Replaces clipboard content with AI response on `Ctrl+X`
 - Terminates safely with `Ctrl+B`
 - Optional hidden mode execution for seamless background operation
@@ -39,8 +39,8 @@
 2. **(Optional) Create and activate a virtual environment**:
    ```bash
    python -m venv venv
-   venv\Scripts\activate  # On Windows
-   # source venv/bin/activate  # On macOS/Linux
+   venv\Scripts\activate
+   # source venv/bin/activate
    ```
 
 3. **Install the required packages**:
